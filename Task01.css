@@ -1,0 +1,81 @@
+/* CSS Grid Example */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.grid-item {
+    background-color: lightblue;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Flexbox Example */
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.flex-item {
+    background-color: lightgreen;
+    border: 1px solid green;
+    padding: 10px;
+}
+
+/* Positioning Example */
+
+.static {
+    position: static;
+    margin-bottom: 10px;
+}
+.relative {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    margin-bottom: 10px;
+}
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    margin-bottom: 10px;
+}
+.fixed {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    margin-bottom: 10px;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    margin-bottom: 10px;
+}
+
+/* Units Example */
+
+.absolute-units {
+    width: 100px;
+    height: 50px;
+    background-color: lightcoral;
+    margin-bottom: 10px;
+}
+.relative-units {
+    width: 50%;
+    height: 5em;
+    background-color: lightblue;
+    margin-bottom: 10px;
+}
+.viewport-units {
+    width: 50vw;
+    height: 20vh;
+    background-color: lightgreen;
+}
